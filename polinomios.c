@@ -2,7 +2,12 @@
 #include <stdio.h>
 #include <string.h>
 
-int menu() 
+int main()
+{
+
+    return 0;
+}
+void menu() 
 {
   int resposta;
 
@@ -44,8 +49,9 @@ int menu()
 
         default:
             printf("Opção inválida, tente novamente\n\n");
+
     }
+
   }
 
-  return 0;
 }
